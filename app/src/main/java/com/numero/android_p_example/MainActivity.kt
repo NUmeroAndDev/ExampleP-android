@@ -16,5 +16,8 @@ class MainActivity : AppCompatActivity() {
         materialCardButton.setOnClickListener {
             startActivity(MaterialCardActivity.createIntent(this@MainActivity))
         }
+        chipButton.setOnClickListener {
+            startActivity(ChipActivity.createIntent(this@MainActivity))
+        }
     }
 }
