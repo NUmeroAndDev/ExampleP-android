@@ -13,5 +13,8 @@ class MainActivity : AppCompatActivity() {
         bottomAppBarButton.setOnClickListener {
             startActivity(BottomAppBarActivity.createIntent(this@MainActivity))
         }
+        materialCardButton.setOnClickListener {
+            startActivity(MaterialCardActivity.createIntent(this@MainActivity))
+        }
     }
 }

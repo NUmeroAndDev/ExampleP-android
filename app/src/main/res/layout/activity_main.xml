@@ -15,10 +15,22 @@
         android:focusable="true"
         android:text="BottomAppBar"
         android:textColor="#FFFFFF"
-        app:cornerRadius="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="#FFFFFF" />
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/materialCardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="Material Card"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bottomAppBarButton"
         app:rippleColor="#FFFFFF" />
 
 </android.support.constraint.ConstraintLayout>

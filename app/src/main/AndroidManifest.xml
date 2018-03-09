@@ -25,6 +25,9 @@
             android:label="@string/title_activity_bottom_app_bar"
             android:theme="@style/AppTheme.NoActionBar" />
 
+        <activity
+            android:name=".MaterialCardActivity" />
+
     </application>
 
 </manifest>
